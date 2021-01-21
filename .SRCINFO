@@ -6,6 +6,8 @@ pkgbase = optix71
 	arch = x86_64
 	license = custom:NVIDIA
 	depends = cuda
+	provides = optix=7.0
+	conflicts = optix
 	options = !strip
 	source = file://NVIDIA-OptiX-SDK-7.1.0-linux64-x86_64.sh
 	source = file://cmake.patch
