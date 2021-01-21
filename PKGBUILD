@@ -1,8 +1,8 @@
 # Maintainer: Yuan Zhou <xyyqzy@hotmail.com>
 
-pkgname=optix
+pkgname=optix71
 pkgver=7.1.0
-pkgrel=2
+pkgrel=1
 pkgdesc="A software development kit for achieving high performance ray tracing on the GPU."
 arch=('x86_64')
 url="https://developer.nvidia.com/optix"
